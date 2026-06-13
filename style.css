@@ -4,5 +4,20 @@
 }
 body{
     background-color: #f4f4f4;
-    ;
+}
+
+.navbar{
+    margin-top: 100px;
+    padding: 0px 300px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 100px;
+}
+.navbar .links{
+    display: flex;
+    gap: 30px;
 }
