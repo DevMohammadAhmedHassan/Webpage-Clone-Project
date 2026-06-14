@@ -53,16 +53,28 @@ main{
     gap: 100px;
 }
 .intro-text h1{
-    font-size: 50px;
+    font-size: 45px;
     width: 180%;
 }
 .intro-info{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
 }
 .intro-info p{
-    font-size: 20px;
+    font-size: 18px;
+}
+.intro-info button{
+  background-color: #f05d51;
+  color: white;
+  border: none;
+  padding: 12px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  align-self: start;
+  cursor: pointer;
 }
 /* right-part */
 .news-container{
