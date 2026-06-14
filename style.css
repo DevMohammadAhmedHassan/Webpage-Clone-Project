@@ -52,6 +52,7 @@ main {
 .intro-container img {
   width: 100%;
   height: 400px;
+  object-fit:cover;
 }
 .intro-text {
   display: flex;
@@ -114,4 +115,38 @@ main {
 }
 .news-container .blog p {
   color: #72737f;
+}
+
+/* Feature Cards */
+.features-contatiner{
+  display:flex;
+  justify-content: space-between;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.features{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.features img{
+  width:90px;
+  height:135px;
+  object-fit:cover;
+}
+.features-info{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.features-info h1{
+  color:#C6C6CD;  
+}
+/* .features-info h2{
+  
+} */
+.features-info p{
+  color: hsl(236, 13%, 42%);
+  width:17em;
+  /* width:290px; */
 }
