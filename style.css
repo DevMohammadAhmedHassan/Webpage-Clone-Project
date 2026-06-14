@@ -50,9 +50,19 @@ main{
 }
 .intro-text{
     display: flex;
+    gap: 100px;
 }
 .intro-text h1{
     font-size: 50px;
+    width: 180%;
+}
+.intro-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-info p{
+    font-size: 20px;
 }
 /* right-part */
 .news-container{
