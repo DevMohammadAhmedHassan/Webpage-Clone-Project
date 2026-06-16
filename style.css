@@ -21,6 +21,8 @@ body {
 }
 .navbar .links {
   display: flex;
+
+  flex-wrap: wrap;
   gap: 30px;
 }
 .navbar .links a {
@@ -158,10 +160,11 @@ main {
   }
   .navbar {
     flex-direction: column;
+    /* align-items: end; */
   }
   .navbar .links {
     display: flex;
-    gap: 10px;
+    gap: 8px;
   }
   main {
     flex-direction: column;
@@ -181,15 +184,15 @@ main {
     width: 100%;
   }
   .news-container {
-    width:80%;
+    width: 80%;
   }
-  .features-contatiner{
+  .features-contatiner {
     flex-direction: column;
     gap: 20px;
   }
   .features-info p {
-  color: hsl(236, 13%, 42%);
-  width: relative;
-  /* width:290px; */
-}
+    color: hsl(236, 13%, 42%);
+    width: relative;
+    /* width:290px; */
+  }
 }
