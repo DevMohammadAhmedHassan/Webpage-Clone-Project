@@ -154,7 +154,7 @@ main {
 /* Media Queries */
 @media all and (max-width: 550px) {
   body {
-    padding: 0px 5px;
+    padding: 0px 10px;
   }
   .navbar {
     flex-direction: column;
@@ -170,10 +170,26 @@ main {
     flex-direction: column;
     gap: 20px;
   }
+  .intro-text h1 {
+    font-size: 30px;
+    width: 100%;
+  }
   .intro-container {
     width: 100%;
   }
   .intro-container img {
     width: 100%;
   }
+  .news-container {
+    width:80%;
+  }
+  .features-contatiner{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .features-info p {
+  color: hsl(236, 13%, 42%);
+  width: relative;
+  /* width:290px; */
+}
 }
