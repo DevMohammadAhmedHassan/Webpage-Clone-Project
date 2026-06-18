@@ -125,6 +125,8 @@ main {
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .features {
   display: flex;
@@ -154,14 +156,22 @@ main {
 }
 
 /* Media Queries */
-@media all and (max-width: 1024px){
+@media all and (max-width: 1760px){
+    body {
+    padding: 0px 200px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  body {
+    padding: 0px 100px;
+  }
+}
+
+@media all and (max-width: 1024px) {
   body {
     padding: 0px 10px;
   }
-    .features-contatiner {
-    flex-wrap: wrap;
-    gap: 20px;
-    }
 }
 
 @media all and (max-width: 768px) {
